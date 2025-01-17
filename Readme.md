@@ -1,5 +1,7 @@
 # Masters: Sheriff Spider Project
 
+**Important:** Scrapy files are found inside the *Masters* folder
+
 A Scrapy-based web scraping project that collects sheriff sale data from [salesweb.civilview.com](https://salesweb.civilview.com/). The **sheriffspider** uses [Scrapy Playwright](https://github.com/scrapy-plugins/scrapy-playwright) to handle JavaScript rendering and navigates through county listings to extract detailed property information. The data is cleaned and validated by the **MastersPipeline**, then saved to a **PostgreSQL** database (via the **SaveToPostgresPipeline**, which can be enabled or disabled).
 
 ## Table of Contents
