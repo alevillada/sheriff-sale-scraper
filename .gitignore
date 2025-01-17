@@ -1,0 +1,11 @@
+# ignore .env file
+.env
+
+# ignore python cache files
+Masters/__pycache__/
+Masters/spiders/__pycache__/
+
+# ignore these speicifc files
+Masters/spiders/realtorspider.py
+Masters/spiders/zillowspider.py
+Masters/spiders/test.py
