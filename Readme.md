@@ -1,4 +1,4 @@
-# Masters: Sheriff Spider Project
+# Sheriff Sale Spider Project
 
 **Important:** Scrapy files are found inside the *Masters* folder
 
